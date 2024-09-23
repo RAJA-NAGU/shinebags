@@ -1,0 +1,138 @@
+@media (max-width : 1200px) {
+    .top-page {
+        top: 80%;
+    }
+
+    .text-box-inner {
+        width: 250px;
+    }
+}
+
+
+@media (max-width : 992px) {
+
+
+    .about-text {
+        font-size: 22px;
+    }
+
+    .text-box {
+        left: -100px;
+
+    }
+
+    .text-box-inner {
+        width: 220px;
+    }
+
+    .product-boxes {
+        row-gap: 70px;
+        justify-content: center;
+    }
+
+    .product-box {
+        flex: 0 0 50%;
+    }
+
+    .product-name {
+        font-size: 22px;
+    }
+
+    .contact-box span,
+    .contact-box .address-lists {
+
+        font-size: 16px;
+    }
+}
+
+@media (max-width : 768px) {
+    .menu-lists {
+        display: none;
+        /* opacity: 0;
+        visibility: hidden;
+        transform: translateY(-20%); */
+    }
+
+    .nav-menu {
+        display: block;
+    }
+
+    /* mobile navigation */
+
+    .open-nav {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        background-color: var(--c-white);
+        transition: all 0.3s ease-in-out;
+        position: absolute;
+        left: 0;
+        top: 115px;
+        z-index: 2;
+        transform: translateY(0);
+
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .open-nav .menu-link {
+        display: block;
+        padding: 10px 15px;
+    }
+
+    .open-nav .nav-bar {
+        display: none;
+    }
+}
+
+@media (max-width : 576px) {
+    .logo-link {
+        font-size: 24px;
+    }
+
+    .hero-box {
+        flex-direction: column;
+    }
+
+    .img-box {
+        right: 0;
+    }
+
+    .text-box {
+        top: 0;
+        left: 0;
+    }
+
+    .hero-text {
+        font-size: 24px;
+    }
+
+    .about-text {
+        font-size: 16px;
+    }
+
+    .product-boxes {
+        row-gap: 20px;
+    }
+
+    .product-box {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .contact-box {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .features div {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .footer p,
+    .footer-link {
+        font-size: 12px;
+    }
+}

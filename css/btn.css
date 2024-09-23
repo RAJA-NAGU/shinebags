@@ -1,0 +1,33 @@
+.btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 1.2px;
+}
+
+.btn-buy {
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--c-white);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-buy:hover {
+    filter: opacity(0.6);
+}
+
+.btn-learn {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    color: var(--c-dark);
+    border: 2px solid var(--c-pink-dark);
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-learn:hover {
+    background-color: var(--c-pink-dark);
+    color: var(--c-white);
+}
