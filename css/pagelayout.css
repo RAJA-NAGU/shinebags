@@ -10,6 +10,27 @@
     font-weight: 600;
 }
 
+.contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    background-color: var(--c-dark);
+    border-radius: 25px;
+}
+
+.phone-icon {
+    padding-right: 5px;
+    font-size: 25px;
+    color: green;
+}
+
+.phone-no {
+    font-size: 20px;
+    color: var(--c-light);
+
+}
+
 .menu-link {
     font-size: 18px;
     color: var(--c-pink-dark);
