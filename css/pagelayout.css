@@ -17,12 +17,41 @@
     padding: 12px;
     background-color: var(--c-dark);
     border-radius: 25px;
+    animation: bounce 2s infinite linear;
+    transition: all 0.3s ease-in;
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.164);
+}
+
+.contact-details:hover {
+    background-color: var(--c-phone-light);
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+        transform: scale(1);
+
+    }
+
+    50% {
+        transform: translateY(-5px);
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: translateY(0);
+        transform: scale(1);
+
+
+    }
 }
 
 .phone-icon {
     padding-right: 5px;
-    font-size: 25px;
-    color: green;
+    font-size: 30px;
+    color: var(--c-whatsapp);
+    animation: bounce 1.5s infinite linear;
+
 }
 
 .phone-no {

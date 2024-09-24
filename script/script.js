@@ -51,3 +51,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// whatsapp
+const phone = document.querySelector(".contact-details");
+
+phone.addEventListener("click", () => {
+  window.open("https://wa.me/919498848422", "_blank");
+});
